@@ -313,7 +313,8 @@ button: {
 
 /* Team styles */
 .team {
-    padding: 120px 0 background-color: var(--light-bg-color);
+    padding: 120px 0;
+    background-color: var(--light-bg-color);
 }
 
 .team-title {
@@ -351,9 +352,8 @@ button: {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 24px;
-    row-gap: 48px;
     margin-bottom: 72px;
+    gap: 24px;
 }
 
 
@@ -390,7 +390,8 @@ button: {
 .projects-list {
     display: flex;
     align-items: center;
-    gap: 23px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .projects-item: {
